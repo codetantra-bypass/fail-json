@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bucket Config</title>
+</head>
+<body>
+    <h1>Configuration Data</h1>
+    <pre id="json-display"></pre>
+
+    <script>
+        fetch('bucket.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('json-display').textContent = 
+                    JSON.stringify(data, null, 2);
+            });
+    </script>
+</body>
+</html>
