@@ -1,4 +1,7 @@
 {
   "allowAccess": true,
-  "Failsafe": true
+  "Failsafe": false,
+  "enableLogs": true,
+  "supabaseUrl": "https://voljvegbdfjhqiusjxbw.supabase.co",
+  "supabaseKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZvbGp2ZWdiZGZqaHFpdXNqeGJ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjExNDQ5NDEsImV4cCI6MjA3NjcyMDk0MX0.PvNnBfOlraTI2saDqNrt74Kw2TJiYL_u15HjYTnejfw"
 }
